@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: grey;
+    padding: 45px;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    height: 460px;
+    border-radius: 10px;
+}
+
+.image {
+    padding: 5px;
+}
+
+.image img {
+    border-radius: 10px;
+    width: 290px
+}
+
+.content {
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    padding: 3px 13px ;
+}
+
+.content p {
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    font-size: 13px;
+    color: rgb(75, 70, 70);
+}
+
+.capsule {
+    padding: 3px 13px ;
+}
+
+.capsule span {
+    border: 1px solid grey;
+    padding: 0 6px;
+    border-radius: 10px;
+}
+
+.button{
+    text-align: center;
+}
+
+.button button{
+    padding: 6px 8px;
+    border-radius: 9px;
+    background-color: rgb(166, 166, 183);
+    color: rgb(36, 36, 128);
+    font-size: 13px;
+    border: none;
+    margin-top: 3px;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+}
